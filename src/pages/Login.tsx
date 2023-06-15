@@ -32,7 +32,7 @@ const Login = () => {
     }
   }, []);
 
-  // Error handling
+  // Error handling After Login
   useEffect(() => {
     if (error) {
       dispatch(setSnackbar({ message: (error as Error).data.message }));
