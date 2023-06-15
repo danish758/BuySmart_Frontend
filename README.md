@@ -1,2 +1,0 @@
-# BuySmart-Backend
-Nodejs
